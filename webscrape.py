@@ -7,9 +7,9 @@ from nltk.probability import FreqDist
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-#Download the required modules
-nltk.download('punkt')
-nltk.download('stopwords')
+#Uncomment to download the required modules
+#nltk.download('punkt')
+#nltk.download('stopwords')
 
 if __name__ == "__main__":
     url="https://www.nytimes.com/section/world"
